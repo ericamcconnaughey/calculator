@@ -16,7 +16,7 @@ _This webpage was created in order to practice Javascript concepts. The purpose 
 
 ## Known Bugs
 
-_In its current state, the site has no user interface and no way for the user to choose the type of calculation to perform._
+_None._
 
 ## Support and Contact Details
 

@@ -1,10 +1,38 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Calculator</title>
-  </head>
-  <body>
-    <h1>Calculator</hi>
-    <script src="js/scripts.js"></script>
-  </body>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="js/jquery.js"></script>
+  <script src="js/scripts.js"></script>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+  <link href="css/styles.css" rel="stylesheet" type="text/css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Calculator</h1>
+    </div>
+    <form id="add">
+      <div class="form-group">
+        <label for="add1">1st number:</label>
+        <input id="add1" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="add2">2nd number:</label>
+        <input id="add2" class="form-control" type="text">
+      </div>
+      <button type="submit" class="btn btn-info">Add!</button>
+    </form>
+    <br />
+    <div id="output">
+
+    </div>
+  </div>
+</body>
+
 </html>
